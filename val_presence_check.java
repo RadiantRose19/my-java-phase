@@ -5,6 +5,7 @@ class Main {
         
         for(int i=0;i<arr.length;i++) {
             if(val == arr[i]) System.out.print(val+ " is present");
+            else System.out.print(val+ " not present");
         }
     }
 }
